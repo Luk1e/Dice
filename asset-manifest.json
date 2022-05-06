@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Dice/static/css/main.c3b4a98a.css",
+    "main.js": "/Dice/static/js/main.c7fef0b1.js",
+    "static/js/787.6a541d2d.chunk.js": "/Dice/static/js/787.6a541d2d.chunk.js",
+    "static/media/winner.mp3": "/Dice/static/media/winner.c38a3a2bf38a787c1013.mp3",
+    "static/media/logo.png": "/Dice/static/media/logo.1af821bbdf5b76b91bfb.png",
+    "static/media/loss.mp3": "/Dice/static/media/loss.6b2eb1aa1ffcec110107.mp3",
+    "static/media/dice.mp3": "/Dice/static/media/dice.865913cb4da19a84f8e1.mp3",
+    "static/media/save.mp3": "/Dice/static/media/save.ed3894f877249fd39ddf.mp3",
+    "static/media/cancel.png": "/Dice/static/media/cancel.d298c08106c264797659.png",
+    "index.html": "/Dice/index.html",
+    "main.c3b4a98a.css.map": "/Dice/static/css/main.c3b4a98a.css.map",
+    "main.c7fef0b1.js.map": "/Dice/static/js/main.c7fef0b1.js.map",
+    "787.6a541d2d.chunk.js.map": "/Dice/static/js/787.6a541d2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b4a98a.css",
+    "static/js/main.c7fef0b1.js"
+  ]
+}
