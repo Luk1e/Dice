@@ -1,0 +1,80 @@
+.Logo-icon {
+  z-index: 4;
+  position: absolute;
+  background-color: black;
+  left: 2vw;
+  top: 7vh;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Logo-icon img {
+  width: 5vw;
+  height: 5vw;
+   border-radius: 999px;
+}
+
+.logo-img{
+  margin-top: 3vh;
+  width: 5vw;
+  height: 5vw;
+   border-radius: 999px;
+}
+
+.Logo-icon:hover, .logo-img:hover {
+  transform: scale(1.1);
+}
+.Logo-window{
+  position: absolute;
+    width: 10vw;
+    height: max-content;
+    left: 2vw;
+    top: 20vh;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Links{
+  display: flex;
+   flex-direction: column;
+}
+.Links a{
+  
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  margin-top: 2vh;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+}
+.Links a:hover{
+  transform: scale(1.1);
+  color:   #ed213a;
+}
+.Links a:last-of-type{
+  margin-bottom: 3vh;
+}
+.Logo-window-button{
+  cursor: pointer;
+  margin-bottom: 2vh;
+  color:white;
+  font-size: 3vw;
+  border:none
+}
+.Logo-window-button:hover{
+  transform: scale(1.1);
+  
+  margin-bottom: 3vh;
+}
+.close{
+  width: 2vw;
+  height: 2vw;
+}

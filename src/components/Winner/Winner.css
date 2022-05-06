@@ -1,0 +1,69 @@
+.winner-container {
+    top: 0;
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background: #ed213a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #93291e,
+      #ed213a
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #93291e,
+      #ed213a
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .winner-window{
+        position: absolute;
+        width: 60vw;
+        height: 60vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #485461;
+        background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+  }
+  .winner-window h1,h2 {
+
+    font-weight: 900;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+  }
+  .winner-window h1{
+    margin-top: 10%;
+    font-size: 5rem;
+  }
+  .winner-window h2 {
+    margin-top: 2%;
+    font-size: 3rem;
+    color: #ed213a;
+  }
+  .winner-window h2{
+      transform: scale(1.1);
+  }
+  .winner-button{
+      margin-top: 8%;
+      min-width: 20%;
+      height: 5vh;
+      font-size: 1.5rem;
+      font-weight: 900;
+      font-family: "Courier New", Courier, monospace;
+      cursor: pointer;
+  }
+
+  .winner-button:hover {
+    transform: scale(1.1);
+    background-color:   #ed213a;
+    border-radius: 10px;
+    color:white
+  }

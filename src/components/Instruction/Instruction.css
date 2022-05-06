@@ -1,0 +1,92 @@
+.Instruction-icon {
+  z-index: 3;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-color: #ed213a;
+  right: 2vw;
+  top: 7vh;
+  border-radius: 999px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Instruction-icon img {
+  width: 2vw;
+  height: 2vw;
+  color: wheat;
+}
+.Instruction-icon:hover {
+  transform: scale(1.1);
+}
+.Instruction-window {
+  position: absolute;
+  width: 60vw;
+  height: max-content;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  
+  border: 5px solid black;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Instruction-window h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  color: #ed213a;
+  margin-right: 5%;
+}
+.Instruction-window h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+color:white
+}
+.Instruction-window-button {
+  margin-top: 5%;
+  width: 20%;
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  margin-bottom: 5%;
+  color: black;
+}
+.Instruction-window-button:hover {
+  transform: scale(1.1);
+}
+.Instruction-window-button:hover {
+  transform: scale(1.1);
+  background-color:   #ed213a;
+  border-radius: 10px;
+  color:white
+}
+
+.box-logo{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 5%;
+}
+.box-logo:hover{
+  transform: scale(1.1);
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}

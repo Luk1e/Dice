@@ -1,0 +1,51 @@
+.Error-container {
+  position: absolute;
+  display: flex;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Error-h1 {
+  font-size: 3vw;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.Error-h2 {
+  color: #ed213a;
+  font-size: 2vw;
+}
+.Error-h2:first-of-type {
+  margin-top: 5%;
+}
+.Err2 {
+  margin-top: 2%;
+  font-size: 5vw ;
+}
+.error{
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

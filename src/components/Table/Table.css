@@ -1,0 +1,96 @@
+.Table {
+  margin-top: 10vh;
+  width: 60vw;
+  height: 60vh;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 10px solid black;
+  border-radius: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Turn {
+  margin-top: 10px;
+  color: white;
+  font-size: 3rem;
+
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+}
+.Points {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+}
+.Dice-block {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 40%;
+  margin-top: 5%;
+}
+.Dice {
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+}
+.Dice:last-of-type {
+  margin-left: 20%;
+}
+.Buttons {
+  margin-top: 5%;
+  width: 40%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Buttons button {
+  width: 50%;
+  height: 5vh;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  color: white;
+}
+.HOLD {
+  margin-left: 10%;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 999px;
+}
+.ROLL {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 999px;
+}
+.Buttons button:hover {
+  transform: scale(1.1);
+}
+.red{
+  color:red;
+}
+
+.BIG{
+  height: 7vh !important;
+}
